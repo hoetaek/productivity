@@ -5,7 +5,6 @@ load_dotenv()
 env = os.environ.get
 
 token = env("TODOIST_TOKEN")
-inbox_project_id = 2169583011
 
 color_dict = {
     "purple": 42,

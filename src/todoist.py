@@ -1,11 +1,9 @@
 import json
 import uuid
-from datetime import datetime, timedelta
-from os import environ
 
 import requests
 
-from constants import inbox_project_id, token
+from constants import token
 
 
 def get_all_projects():
